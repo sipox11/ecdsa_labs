@@ -1,5 +1,6 @@
 # This script generates a private key (dA) and derives the public key from it.
 # It uses the Secp256k1 EC 
+# It stores the private and public key in separate files under the keys directory
 
 
 require 'ecdsa'
